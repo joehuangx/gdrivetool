@@ -6,15 +6,15 @@
 
 + **Upload:**
 
-  + Upload into a newly-created directory in MyDrive
-  + Upload into an existing directory with designated id
-  + Upload into a newly-created directory in an existing directory with designated id
+  + Upload into a newly-created directory
+  + Upload into an existing directory
+  + Upload into a newly-created directory in an existing directory
 + **Download:**
 
   + Download files and directories into a designated local path
 + **List:**
 
-  + Display metadata of files under a designated directory and stored into `list.json`
+  + Display metadata of files under a designated directory and stored info into `list.json`
 
 ## Instruction
 
@@ -25,11 +25,11 @@
 
 ### 2. Create credentials:
 
-Please follow the direction : [建立憑證](./建立憑證.pdf)
-
 Visit [Google Developers Console](https://console.developers.google.com/) and apply for the credentials.
 
 After set up successfully, choose option to download it as JSON format and save it into your local space.
+
+(You can follow this direction : [建立憑證](./建立憑證.pdf))
 
 ### 3. Install required modules:
 
@@ -45,13 +45,13 @@ $ pip3 install -r requirements.txt
 
 ### 4. How to use the tool:
 
+You can follow this direction : [使用手冊](./使用手冊.pdf) or read the following simple instructions.
+
 **Typically follow the following structure to get started:**
 
 ```python
 $ python -m gdrivetool [function] {[arg1] [arg2]...}
 ```
-
-You can follow the direction : [使用手冊](./使用手冊.pdf) or read the following simple instructions.
 
 #### (1) Authenticate / Update content of API:
 
