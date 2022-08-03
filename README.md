@@ -79,19 +79,17 @@ $ python -m gdrivetool upload '{corresponding sets of arguments...}'
 
     Options:
 
-    1. + `-src` (Required) : full path or relative path to source file or directory to upload
+    + `-src` (Required) : full path or relative path to source file or directory to upload
+    + `-new` (Optional) : new folder name you wanna create into gdrive
+    + `-dest` (Optional) : destination directory id/url in gdrive where you wanna upload into
+    + ( Input more than one path at one time is permitted and _remember to separate different path by "whitespace_" )
 
-       ( Input more than one path at one time is permitted and _remember to separate different path by "whitespace_" )
+    > For example:
+    >
 
-       + `-new` (Optional) : new folder name you wanna create into gdrive
-       + `-dest` (Optional) : destination directory id/url in gdrive where you wanna upload into
-
-       > For example:
-       >
-
-       ```python
-       $ python -m gdrivetool upload -src '{/path/to/file}' '{/path/to/folder}' -new '{foldername}' -dest '{directoryid/url}'
-       ```
+    ```python
+    $ python -m gdrivetool upload -src '{/path/to/file}' '{/path/to/folder}' -new '{foldername}' -dest '{directoryid/url}'
+    ```
 
 #### (3) Download:
 
@@ -105,19 +103,17 @@ $ python -m gdrivetool download '{corresponding sets of arguments...}'
 
     Options:
 
-    1. + `-src` (Required) : multiple gdrive ids/urls
+    + `-src` (Required) : multiple gdrive ids/urls
+    + `-dest` (Required) : path/to/local/directory as download destination
+    + `-c` (Optional) : Update all files and folders with the same name without more request
+    + ( Allowed to add more than one id or url at one time and remember to separate different ones by "whiteapce" )
 
-       *( Allowed to add more than one id or url at one time and remember to separate different ones by "whiteapce" )*
+    > For example:
+    >
 
-       + `-dest` (Required) : path/to/local/directory as download destination
-         + `-c` (Optional) : Update all files and folders with the same name without more request
-
-       > For example:
-       >
-
-       ```python
-       $ python -m gdrivetool download -src '{fileid}' '{directoryurl}'... -dest '{/path/to/localdirectory}' -c
-       ```
+    ```python
+    $ python -m gdrivetool download -src '{fileid}' '{directoryurl}'... -dest '{/path/to/localdirectory}' -c
+    ```
 
 #### (4) List: to retrieve all metadata under the given directory id
 
