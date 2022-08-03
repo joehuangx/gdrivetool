@@ -55,7 +55,7 @@ You can follow the direction : [使用手冊](./使用手冊.pdf) or read the fo
 
 #### (1) Authenticate / Update content of API:
 
-For the first time, please authenticate gdrive API and a new file named `token.pickle ` will automatically be created with the following command.
+For the first time, please authenticate gdrive API and a new file named `token.pickle` will automatically be created with the following command.
 
 ```python
 $ python -m gdrivetool auth -cred '{/path/to/yourcredentials.json}'
@@ -63,7 +63,7 @@ $ python -m gdrivetool auth -cred '{/path/to/yourcredentials.json}'
 
 + Introduction to argument:
 
-  `-cred` [Required] : personal OAuth 2.0 credential file with format of JSON
+  `-cred` : personal OAuth 2.0 credential file with format of JSON
 
 ( If you want to change different account to download or uplaod, just execute above command again. )
 
@@ -79,12 +79,12 @@ $ python -m gdrivetool upload '{corresponding sets of arguments...}'
 
     Options:
 
-    1. + `-src` [Required] : full path or relative path to source file or directory to upload
+    1. + `-src` (Required) : full path or relative path to source file or directory to upload
 
        ( Input more than one path at one time is permitted and _remember to separate different path by "whitespace_" )
 
-       + `-new` [Optional] : new folder name you wanna create into gdrive
-       + `-dest` [Optional] : destination directory id/url in gdrive where you wanna upload into
+       + `-new` (Optional) : new folder name you wanna create into gdrive
+       + `-dest` (Optional) : destination directory id/url in gdrive where you wanna upload into
 
        > For example:
        >
