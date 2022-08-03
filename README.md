@@ -86,7 +86,8 @@ $ python -m gdrivetool upload '{Options}'
     + `-src` (Required) : full path or relative path to source file or directory to upload
     + `-new` (Optional) : new folder name you wanna create into gdrive
     + `-dest` (Optional) : destination directory id/url in gdrive where you wanna upload into
-    + ( Input more than one path at one time is permitted and _remember to separate different path by "whitespace_" )
+
+    ( Input more than one path at one time is permitted and _remember to separate different path by "whitespace_" )
 
     > For example:
     >
@@ -110,7 +111,8 @@ $ python -m gdrivetool download '{Options}'
     + `-src` (Required) : multiple gdrive ids/urls
     + `-dest` (Required) : path/to/local/directory as download destination
     + `-c` (Optional) : Update all files and folders with the same name without more request
-    + ( Allowed to add more than one id or url at one time and remember to separate different ones by "whiteapce" )
+
+    ( Allowed to add more than one id or url at one time and remember to separate different ones by "whiteapce" )
 
     > For example:
     >
