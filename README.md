@@ -11,7 +11,7 @@
   + Upload into a newly-created directory in an existing directory
 + **Download :**
 
-  + Download files and directories into a designated local path
+  + Download files or directories into a designated local path
 + **List :**
 
   + Display metadata of files under a designated directory and stored info into `list.json`
