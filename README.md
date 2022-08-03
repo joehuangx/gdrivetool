@@ -39,8 +39,6 @@ Please install with the command :
 $ pip install -r requirements.txt
 ```
 
-( Depends on your version `pip` or `pip3` )
-
 ### 4. How to use the tool
 
 You can follow this direction : [使用手冊](./使用手冊.pdf) or read the following simple instructions.
