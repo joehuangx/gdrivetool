@@ -5,15 +5,15 @@
 ## Feature
 
 + **Upload:**
+
   + Upload into a newly-created directory in MyDrive
   + Upload into an existing directory with designated id
   + Upload into a newly-created directory in an existing directory with designated id
 + **Download:**
+
   + Download files and directories into a designated local path
-
-> *Note: Both upload and download support working with several files and directories at one time (nested uploading and downloading)*
-
 + **List:**
+
   + Display metadata of files under a designated directory and stored into `list.json`
 
 ## Instruction
@@ -132,17 +132,3 @@ $ python -m gdrivetool list -src '{gdrive folder url/id}'
 #### NOTE:
 
 + If you execute on `zsh` with urls, to quote your url will be necessary.
-  #� �G�o�o�g�l�e�_�D�r�i�v�e�_�A�P�I�_�T�o�o�l�-�
-  �
-  �#� �G�o�o�g�l�e�_�D�r�i�v�e�_�A�P�I�_�T�o�o�l�-�
-  �
-  �#� �G�o�o�g�l�e�_�D�r�i�v�e�_�A�P�I�_�T�o�o�l�
-  �
-  �
-  #� �G�o�o�g�l�e�_�D�r�i�v�e�_�A�P�I�_�T�o�o�l�
-  �
-  �#� �G�o�o�g�l�e�_�D�r�i�v�e�_�A�P�I�_�T�o�o�l�
-  �
-  �#� �g�d�r�i�v�e�t�o�o�l�
-  �
-  �
