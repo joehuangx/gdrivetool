@@ -41,7 +41,7 @@ $ pip install -r requirements.txt
 
 ### 4. How to use the tool
 
-You can follow this direction : [使用手冊](./使用手冊.pdf) or read the following simple instructions.
+You can follow this direction : [使用手冊](./使用手冊.pdf) or read the following simple instructions :
 
 **Typical structure :**
 
@@ -85,8 +85,7 @@ $ python -m gdrivetool upload '{Options}'
 
     ( Input more than one path at one time is permitted and _remember to separate different path by "whitespace_" )
 
-    > For example :
-    >
+    For example :
 
     ```python
     $ python -m gdrivetool upload -src '{/path/to/file}' '{/path/to/folder}' -new '{foldername}' -dest '{directoryid/url}'
@@ -110,8 +109,7 @@ $ python -m gdrivetool download '{Options}'
 
     ( Allowed to add more than one id or url at one time and remember to separate different ones by "whiteapce" )
 
-    > For example :
-    >
+    For example :
 
     ```python
     $ python -m gdrivetool download -src '{fileid}' '{directoryurl}'... -dest '{/path/to/localdirectory}' -c
