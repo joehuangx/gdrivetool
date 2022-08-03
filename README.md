@@ -4,15 +4,15 @@
 
 ## Feature
 
-+ **Upload:**
++ **Upload :**
 
   + Upload into a newly-created directory
   + Upload into an existing directory
   + Upload into a newly-created directory in an existing directory
-+ **Download:**
++ **Download :**
 
   + Download files and directories into a designated local path
-+ **List:**
++ **List :**
 
   + Display metadata of files under a designated directory and stored info into `list.json`
 
