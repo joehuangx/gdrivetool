@@ -105,12 +105,12 @@ $ python -m gdrivetool download '{corresponding sets of arguments...}'
 
     Options:
 
-    1. + `-src`[Required] : multiple gdrive ids/urls
+    1. + `-src` (Required) : multiple gdrive ids/urls
 
        *( Allowed to add more than one id or url at one time and remember to separate different ones by "whiteapce" )*
 
-       + `-dest`[Required] : path/to/local/directory as download destination
-         + `-c` [Optional]: Update all files and folders with the same name without more request
+       + `-dest` (Required) : path/to/local/directory as download destination
+         + `-c` (Optional) : Update all files and folders with the same name without more request
 
        > For example:
        >
