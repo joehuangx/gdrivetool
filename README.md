@@ -37,8 +37,6 @@ Please install with the command :
 
 ```python
 $ pip install -r requirements.txt
-or 
-$ pip3 install -r requirements.txt
 ```
 
 ( Depends on your version `pip` or `pip3` )
