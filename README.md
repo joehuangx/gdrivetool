@@ -61,16 +61,20 @@ For the first time, please authenticate gdrive API and a new file named `token.p
 $ python -m gdrivetool auth -cred '{/path/to/yourcredentials.json}'
 ```
 
-+ Introduction to argument:
++ Introduction to arguments:
 
-  `-cred` : personal OAuth 2.0 credential file with format of JSON
+  + `auth` : choose authenticate function
+
+    Options:
+
+    + `-cred` (Required): personal OAuth 2.0 credential file with format of JSON
 
 ( If you want to change different account to download or uplaod, just execute above command again. )
 
 #### (2) Upload:
 
 ```python
-$ python -m gdrivetool upload '{corresponding sets of arguments...}'
+$ python -m gdrivetool upload '{Options}'
 ```
 
 + Introduction to arguments:
@@ -94,7 +98,7 @@ $ python -m gdrivetool upload '{corresponding sets of arguments...}'
 #### (3) Download:
 
 ```python
-$ python -m gdrivetool download '{corresponding sets of arguments...}'
+$ python -m gdrivetool download '{Options}'
 ```
 
 + Introduction to arguments:
@@ -121,9 +125,13 @@ $ python -m gdrivetool download '{corresponding sets of arguments...}'
 $ python -m gdrivetool list -src '{gdrive folder url/id}'
 ```
 
-+ Introduction to argument:
++ Introduction to arguments:
 
-  + `-src` : directory id/url ( input one at one time )
+  + `list` : choose list function
+
+    Options:
+
+    + `-src` (Required) : directory id/url ( input one at one time )
 
 #### NOTE:
 
