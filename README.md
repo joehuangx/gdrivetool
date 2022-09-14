@@ -132,3 +132,8 @@ $ python -m gdrivetool list -src '{gdrive folder url/id}'
 #### NOTE:
 
 + If you execute on `zsh` with urls, to quote your url will be necessary.
+
+## Authors
+
+- [Joe Huang](https://github.com/joehuangx)
+- [Joanne Chen](https://github.com/EJChen-Joanne)
